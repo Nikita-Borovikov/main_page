@@ -38,9 +38,9 @@ section{
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
     height: 80vh;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .projects_container a{
@@ -69,8 +69,8 @@ section{
     align-self: center;
     letter-spacing: 10px;
     z-index:1;
-    transition: 0.8s;
-    overflow: hidden;
+    transition: 0.5s;
+    margin: 0 10px;
 }
 
 .link span {
@@ -90,7 +90,7 @@ section{
     -webkit-text-stroke-width: 2px;
     letter-spacing: 10px;
     height: 50vh;
-    transform: translateY(-10%);
+    transform: translateY(-5%);
 }
 
 .projects_container .link:hover span{
