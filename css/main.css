@@ -29,7 +29,6 @@ section{
     height: 100vh;
     color: #fff;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    
 }
 
 .projects_container{
@@ -37,9 +36,9 @@ section{
     flex-direction: row;
     justify-content:center;
     align-items: center;
+    align-content: center;
     flex-wrap: wrap;
     height: 80vh;
-    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -71,6 +70,7 @@ section{
     z-index:1;
     transition: 0.5s;
     margin: 0 10px;
+    transform-origin: bottom;
 }
 
 .link span {
@@ -90,7 +90,7 @@ section{
     -webkit-text-stroke-width: 2px;
     letter-spacing: 10px;
     height: 50vh;
-    transform: translateY(-5%);
+    transform: translateY(5%);
 }
 
 .projects_container .link:hover span{
