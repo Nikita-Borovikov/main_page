@@ -4,18 +4,16 @@ $('.menu-btn').on('click',function(e) {
         $('.content').toggleClass('content_active');
     });
 
-const anchors = document.querySelectorAll('a[href="#"]')
+let anchors = document.querySelectorAll('nav a[href="#"]');
 
 for (let anchor of anchors) {
-    anchor.addEventListener('click', function(event) {
-        event.preventDefault();
-        const blockID = anchor.getAttribute('href')
-         document.querySelector('' + blockID).scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-           })
-      })
+    if(anchor) {
+        anchor.addEventListener('click', function(v){
+            anchorId = this.getAttribute('href');
+            console.log(anchorId);
+        })
     }
+}
 
 
 
