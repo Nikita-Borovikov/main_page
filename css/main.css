@@ -194,13 +194,13 @@ section{
 }
 
 .contacts .contact2:hover{
-    background: url(/img/instagram-logo-dark.jpg);
+    background: url(/img/instagram-logo-dark_1.webp);
     background-size: cover;
     background-position: center;
 }
 
 .contacts .contact3:hover{
-    background: url(/img/Facebook_New_Logo_\(2015\).svg.png);
+    background: url(/img/Facebook_New_Logo__2015_.svg.webp);
     background-size: contain;
     background-position: center;
 }
