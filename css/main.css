@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,200&family=Quicksand:wght@600&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
@@ -116,25 +121,98 @@ section{
 
 }
 
-.portfolio{
+.about-me{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
 } 
 
-.portfolio h2{
+.about-me h2{
     writing-mode: vertical-lr;
     text-orientation: upright;
     text-decoration: overline;
     align-self: center;
     margin-left: 150px;
     font-size: 54px;
+    cursor: default;
 }
 
 .wrapper {
     position: relative;
     overflow-x: hidden;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.my-contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contacts a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+.contact span{
+    opacity: 1;
+}
+
+.contacts .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40vw;
+    height: 40vh;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 10px 0;
+    backdrop-filter: blur(10px);
+    transition: 0.8s;
+    
+}
+
+.contacts .contact1:hover{
+    background: url(/img/github.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.contacts .contact2:hover{
+    background: url(/img/instagram-logo-dark.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contacts .contact3:hover{
+    background: url(/img/Facebook_New_Logo_\(2015\).svg.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.contacts .contact4:hover{
+    background: url(/img/Twitter-Third-Party-Apps.webp);
+    background-size: contain;
+    background-position: center;
+}
+
+.contacts .contact:hover span{
+    opacity: 0;
 }
 
 .menu {
@@ -234,6 +312,48 @@ section{
 }
 
 .content_active {
-    transform: translateX(30%); 
+    /* transform: translateX(30%);  */
 } 
 
+.myphoto {
+    background: url(/img/avatar_about_me.webp);
+    height: 40vh;
+    width: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    left: 20%;
+}
+
+.introduce{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information-about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 41vh;
+    width: 80vh;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10% 25% 25% 10%; 
+    position: relative;
+    z-index: -10;
+    color: black;
+    text-align: center;
+}
+
+.information-about-me p {
+    align-self: center;
+    font-size: 23px;
+}
+
+.information-about-me p span {
+    font-weight: bold;
+}

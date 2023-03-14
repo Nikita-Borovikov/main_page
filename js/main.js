@@ -4,19 +4,6 @@ $('.menu-btn').on('click',function(e) {
         $('.content').toggleClass('content_active');
     });
 
-let anchors = document.querySelectorAll('nav a[href="#"]');
-
-for (let anchor of anchors) {
-    if(anchor) {
-        anchor.addEventListener('click', function(v){
-            anchorId = this.getAttribute('href');
-            console.log(anchorId);
-        })
-    }
-}
-
-
-
      
 
 
