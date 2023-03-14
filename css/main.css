@@ -188,25 +188,25 @@ section{
 }
 
 .contacts .contact1:hover{
-    background: url(/img/github.webp);
+    background: url(../img/github.webp);
     background-size: cover;
     background-position: center;
 }
 
 .contacts .contact2:hover{
-    background: url(/img/instagram-logo-dark_1.webp);
+    background: url(../img/instagram-logo-dark_1.webp);
     background-size: cover;
     background-position: center;
 }
 
 .contacts .contact3:hover{
-    background: url(/img/Facebook_New_Logo__2015_.svg.webp);
+    background: url(../img/Facebook_New_Logo__2015_.svg.webp);
     background-size: contain;
     background-position: center;
 }
 
 .contacts .contact4:hover{
-    background: url(/img/Twitter-Third-Party-Apps.webp);
+    background: url(../img/Twitter-Third-Party-Apps.webp);
     background-size: contain;
     background-position: center;
 }
@@ -316,7 +316,7 @@ section{
 } 
 
 .myphoto {
-    background: url(/img/avatar_about_me.webp);
+    background: url(../img/avatar_about_me.webp);
     height: 40vh;
     width: 40vh;
     background-size: cover;
