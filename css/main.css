@@ -113,6 +113,12 @@ section{
     background-size: cover;
 }
 
+.projects_container .link3 {
+    background-image: url('https://cdn.britannica.com/08/190908-131-A6B6D47D/Volleyball-match.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .projects h2 {
     align-self: center;
