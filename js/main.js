@@ -4,6 +4,14 @@ $('.menu-btn').on('click',function(e) {
         $('.content').toggleClass('content_active');
     });
 
+
+    window.onload = function(){
+        window.setInterval(function(){
+        var now = new Date();
+        var clock = document.getElementById("clock");
+        clock.innerHTML = now.toLocaleTimeString();
+        },1000);
+      };
      
 
 
