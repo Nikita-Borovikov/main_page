@@ -364,10 +364,11 @@ section{
 
 .information-about-me p span {
     font-weight: bold;
+    font-size: large;
 }
 
 #clock{
-    position: absolute;
+    position: relative;
     top: 5px;
     right: 0;
     display: flex;
